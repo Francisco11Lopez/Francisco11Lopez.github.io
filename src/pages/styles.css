@@ -1,0 +1,12 @@
+/* stylelint-disable property-no-vendor-prefix */
+/* stylelint-disable unit-allowed-list */
+
+.my-pic {
+  will-change: filter;
+  transition: filter 1s ease-in-out 0s;
+  filter: brightness(80%) drop-shadow(0 0 0.2rem #8de0ee);
+}
+
+.my-pic:hover {
+  filter: brightness(65%) drop-shadow(0 0 0.2rem #b8b8b8aa);
+}

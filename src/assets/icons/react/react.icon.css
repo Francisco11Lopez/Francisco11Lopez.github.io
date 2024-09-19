@@ -1,0 +1,25 @@
+/* stylelint-disable unit-allowed-list */
+/* stylelint-disable property-no-vendor-prefix */
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable rule-empty-line-before */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react_icon {
+  will-change: filter;
+  transition: all 1s ease-in-out 0s;
+  -webkit-transition: all 1s ease-in-out 0s;
+  -moz-transition: all 1s ease-in-out 0s;
+}
+
+.react_icon:hover {
+  transform: rotate(60deg) scale(1.1);
+  filter: drop-shadow(0 0 0.3rem #61dafbaa);
+}

@@ -1,0 +1,15 @@
+/* stylelint-disable unit-allowed-list */
+/* stylelint-disable keyframe-selector-notation */
+/* stylelint-disable rule-empty-line-before */
+
+@keyframes scroll-down {
+  0% {
+    transform: rotate(270deg) translateX(0);
+  }
+  25% {
+    transform: rotate(270deg) translateX(-5px);
+  }
+  to {
+    transform: rotate(270deg) translateX(0);
+  }
+}

@@ -1,0 +1,38 @@
+/* stylelint-disable at-rule-no-unknown */
+/* stylelint-disable font-family-name-quotes */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors */
+  --dark: #121217;
+  --light: rgba(179, 179, 186, 0.87);
+  --gray: #828282;
+
+  color-scheme: light dark;
+  color: var(--light);
+  background-color: var(--dark);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+::selection {
+  color: inherit;
+  background-color: #3f3f47;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {} */
